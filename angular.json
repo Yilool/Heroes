@@ -117,8 +117,16 @@
               "devServerTarget": "Hero:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
-  "defaultProject": "Hero"
+    }
+  },
+  "defaultProject": "Hero",
+  "cli": {
+    "analytics": false
+  }
 }
