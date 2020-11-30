@@ -1,0 +1,6 @@
+<div>
+    <h1>El super heroe que me gusta es: <small>{{ appHeroName }}</small> </h1>
+    <app-heroes
+        [childInListHero]="appHeroesArray"
+        (childOutHeroName)="appSetName( $event )"></app-heroes>
+</div>
